@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   --bg-0: #09090b;
   --bg-1: #111113;
@@ -49,7 +45,7 @@ html {
 
 /* Code blocks */
 pre, code {
-  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  font-family: var(--font-mono), monospace;
 }
 
 code.inline {

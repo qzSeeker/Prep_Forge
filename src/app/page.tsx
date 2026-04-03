@@ -60,7 +60,7 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col font-mono">
         <header className="border-b border-[var(--border)] bg-[var(--bg-1)]/80 backdrop-blur-sm sticky top-0 z-40">
           <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
             <div className="flex items-center gap-2.5">
